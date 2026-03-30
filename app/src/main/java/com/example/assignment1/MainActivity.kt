@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity() {
 
             txtResult.text = suggestion
 
+            // Logging added
             Log.d("INPUT", "User entered: $time")
             Log.d("OUTPUT", "Suggestion: $suggestion")
         }
