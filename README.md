@@ -2,7 +2,7 @@ Social Spark App
 
 Purpose:
 
-The Social Spark App helps users maintain social connections by suggesting simple actions based on the time of day.
+The Social Spark App helps users maintain their social relationships by suggesting simple actions based on the time of day.
 
 Features:
 - Input time of day (Morning, Afternoon, Dinner, etc.)
@@ -19,4 +19,6 @@ Suggestion Screen
 Error Screen
 ![Error Screen](screenshots/error_screen.png)
 
-The app was designed to be simple and user-friendly. Clear instructions are provided to guide the user on what to input. The interface is clean and easy to navigate. The app successfully provides social interaction suggestions based on user input and demonstrates the use of Kotlin, GitHub, and automation tools.
+The app was designed to be simple and user-friendly. Instructions are provided to guide the user on what to input. The interface is clean and easy to navigate. The app gives social interaction suggestions based on user input and shows the use of Kotlin and Github
+
+Here is a link to a video showcasing how the app works:
