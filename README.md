@@ -11,12 +11,12 @@ Features:
 - Error handling for invalid input
 
 Main Screen
-![Main Screen](screenshots/main_screen.png.png)
+![Main Screen](screenshots/main_screen.png)
 
 Suggestion Screen
-![Suggestions](screenshots/suggestion_screen.png.png)
+![Suggestions](screenshots/suggestion_screen.png)
 
 Error Screen
-![Error Screen](screenshots/error_screen.png.png)
+![Error Screen](screenshots/error_screen.png)
 
 The app was designed to be simple and user-friendly. Clear instructions are provided to guide the user on what to input. The interface is clean and easy to navigate. The app successfully provides social interaction suggestions based on user input and demonstrates the use of Kotlin, GitHub, and automation tools.
