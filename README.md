@@ -2,7 +2,7 @@ Social Spark App
 
 Purpose:
 
-The Social Spark App helps users maintain their social relationships by suggesting simple actions based on the time of day.
+The Social Spark App helps users maintain their social relationships by suggesting actions based on the time of day.
 
 Features:
 - Input time of day (Morning, Afternoon, Dinner, etc.)
