@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
             Log.d("OUTPUT", "Suggestion: $suggestion")
         }
 
-        // Reset Button
+        // Reset button added
         btnReset.setOnClickListener {
             edtTime.text.clear()
             txtResult.text = ""
