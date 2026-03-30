@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CA8585"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="72dp"
+        android:background="#955D5D"
+        android:text="Reset"
+        android:textColor="#B17F7F"
+        android:textStyle="bold"
+        app:iconTint="#956F6F"
+        app:layout_constraintStart_toEndOf="@+id/btnSuggest"
+        app:layout_constraintTop_toBottomOf="@+id/edtTime" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="44dp"
+        android:background="#00AD6161"
+        android:fontFamily="sans-serif-black"
+        android:text="Social Spark"
+        android:textColor="#AB2727"
+        android:textSize="34sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="364dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="28dp"
+        android:text="Enter time of day (Morning, Mid-morning, Afternoon, Afternoon Snack Time, Dinner, Night):"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/edtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="252dp"
+        android:layout_height="239dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:textColor="#EFA1A1"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnReset" />
+
+    <Button
+        android:id="@+id/btnSuggest"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
+        android:background="#8A5F5F"
+        android:backgroundTint="#895050"
+        android:backgroundTintMode="add"
+        android:text="Get Suggestion"
+        android:textColor="#AF7E7E"
+        android:textStyle="bold"
+        app:iconTint="#2C1010"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTime"
+        app:strokeColor="#562B2B" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
