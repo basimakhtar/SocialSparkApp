@@ -26,3 +26,8 @@ All the progress and changes made were documented on Github using commits. To bu
 
 Here is a link to a video showcasing how the app works:
 https://youtu.be/d5w396BAsYY
+
+References
+
+1. GitHub, n.d. Automated Build Android App with GitHub Action. Available at: https://github.com/marketplace/actions/automated-build-android-app-with-github-action (Accessed: 30 March 2026).
+2. IMAD5112, n.d. GitHub Actions Build Workflow Example. Available at: https://github.com/IMAD5112/Github-actions/blob/main/.github/workflows/build.yml (Accessed: 30 March 2026).
