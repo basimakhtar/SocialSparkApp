@@ -34,10 +34,7 @@ class MainActivity : AppCompatActivity() {
             var suggestion: String
 
             // IF Statements
-            if (time == "") {
-                suggestion = "Please enter a valid time (e.g. Morning, Afternoon)"
-            }
-            else if (time == "Morning") {
+            if (time == "Morning") {
                 suggestion = "Send a good morning text to a family member"
             }
             else if (time == "Mid-morning") {
@@ -54,6 +51,10 @@ class MainActivity : AppCompatActivity() {
             }
             else if (time == "After Dinner" || time == "Night") {
                 suggestion = "Leave a comment on a friend's post"
+            }
+            // Error handling
+            else if (time == "") {
+                suggestion = "Please enter a valid time (e.g. Morning, Afternoon)"
             }
             else {
                 suggestion = "Invalid input. Try Morning, Afternoon, Dinner, etc"
